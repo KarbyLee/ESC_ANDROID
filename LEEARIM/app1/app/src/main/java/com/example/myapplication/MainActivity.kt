@@ -58,11 +58,6 @@ fun MainScreen() {
             onClick = {
                 count++
                 message = "버튼을 눌렀어요!"
-
-                if (count > 75) {
-                    message = "거의 다 왔어요!"
-                }
-
                 if (count >= 100) {
                     count = 0
                     message = "초기화 되었어요!"
